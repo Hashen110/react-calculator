@@ -1,20 +1,45 @@
 {
   "name": "react-calculator",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+  "description": "A simple react calculator component",
+  "keywords": [
+    "lightweight",
+    "react",
+    "calculator",
+    "component"
+  ],
+  "homepage": "https://github.com/Hashen110/react-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/Hashen110/react-calculator/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "url": "https://github.com/Hashen110",
+    "email": "hashen.abeysekara123@gmail.com",
+    "name": "Hashen Abeysekara"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/Hashen110/react-calculator.git",
+    "type": "git"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "mathjs": "^10.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0"
   },
   "eslintConfig": {
     "extends": [
