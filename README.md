@@ -2,19 +2,8 @@
 
 A simple lightweight react calculator component.
 
-[![npm version](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/react-calculator)
+[![npm version](https://img.shields.io/badge/npm-1.0.1-blue.svg)](https://www.npmjs.com/package/react-calculator)
 [![licence type](https://img.shields.io/badge/licence-MIT-yellow.svg)](https://www.npmjs.com/package/react-calculator)
-
-## Installation
-
-Use the npm or yarn to install
-
-```
-npm install --save react-calculator
-```
-```
-yarn add react-calculator
-```
 
 ## Options
 
