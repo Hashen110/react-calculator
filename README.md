@@ -10,7 +10,7 @@ A simple lightweight react calculator component.
 Use the npm or yarn to install
 
 ```
-npm install -save react-calculator
+npm install --save react-calculator
 ```
 ```
 yarn add react-calculator
