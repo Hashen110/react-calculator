@@ -9,15 +9,15 @@ A simple lightweight react calculator component.
 
 ### Props
 |Prop|Type|Return|Default|Usage|
-|----|----|------|-------|-----|
-|numberButtonColor |`string`  |                  |     |Change the color of number buttons|
-|symbolButtonColor |`string`  |                  |grey |Change the color of symbol buttons|
-|equalButtonColor  |`string`  |                  |blue |Change the color of equal buttons |
-|disableContextMenu|`boolean` |                  |false|Disable context menu (right click)|
-|gap               |`number`  |                  |5    |Change gap between buttons        |
-|onInputChange     |`function`|`string`, `string`|     |Change gap between buttons        |
-|onResult          |`function`|`string`, `string`|     |Change gap between buttons        |
-|onClear           |`function`|`string`          |     |Change gap between buttons        |
+|------------------|----------|------------------|-----|-------------------------------------------------------------|
+|numberButtonColor |`string`  |                  |     |Change the color of number buttons                           |
+|symbolButtonColor |`string`  |                  |grey |Change the color of symbol buttons                           |
+|equalButtonColor  |`string`  |                  |blue |Change the color of equal buttons                            |
+|disableContextMenu|`boolean` |                  |false|Disable context menu (right click)                           |
+|gap               |`number`  |                  |5    |Change gap between buttons. value use as pixel               |
+|onInputChange     |`function`|`string`, `string`|     |Trigger when input is entered. Return new value and old value|
+|onResult          |`function`|`string`, `string`|     |Trigger when equal button clicked.Return expression and value|
+|onClear           |`function`|`string`          |     |Trigger when clear button clicked. Returns cleared value     |
 
 
 ### Note
